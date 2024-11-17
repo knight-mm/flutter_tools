@@ -61,6 +61,7 @@ class _ClickDebounceState extends State<ClickDebounce> {
       child: Container(
         height: 100,
         width: 100,
+        alignment: Alignment.center,
         color: status ? Colors.green : Colors.red,
         child: Text("$count"),
       ),
